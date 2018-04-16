@@ -1,1 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #fefefe;
+}
+  .details-container {
+    margin-left: 2rem;
+  }
+
+  img{
+      max-width: 96px;
+      max-height: 96px;
+      align-self: center;
+  }
+
+  .img{
+      align-self: center;
+  }
+  
+  .text-center{
+      text-align: center;
+  }
+  
+a{
+    margin-left: 35%;
+    color: #205dab!important;
+    font-weight: 400;
+}
+
+.card{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.title-pokemon{
+    color: #205dab;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.card-body{
+    padding: 1rem;
+}
+
+.details-container{
+    align-self: center;
+    max-width: 200px;
+    margin: 0 auto!important;
+}
+
+

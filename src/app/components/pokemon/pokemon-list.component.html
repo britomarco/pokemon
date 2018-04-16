@@ -1,0 +1,19 @@
+<p *ngIf="!pokemon">Loading...</p>
+
+<h1 class="title-pokemon">Pokemon App</h1>
+
+<div class="container">
+  <div class="row">
+    <div class="col" *ngFor="let item of pokemon">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top img-responsive" src="{{ item.image() }}">
+        <div class="card-body">
+          <h5 class="card-title text-center">{{ item.formattedName() }}</h5>
+          <a [routerLink]="['/details', item.id]">Go details</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
